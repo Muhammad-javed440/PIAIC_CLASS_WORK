@@ -168,7 +168,7 @@ console.log(`The maximum number is ${maxNumber}`);
 //  Write a program that converts temperature from Fahrenheit to Celsius.
 const fahrenheitTemperature = 68;
 function fahrenheitToCelsius(fahrenheit: number): number {
-    return (fahrenheit - 32) * 5 / 9;
+    return (fahrenheit - 32) * ( 5 / 9 );
 }const celsiusTemperature = fahrenheitToCelsius(fahrenheitTemperature);
 console.log(`Temperature in Celsius: ${celsiusTemperature.toFixed(2)}°C`);  // wrong 
 
