@@ -192,8 +192,8 @@ if(numb > 0){
 //  Write a program that prints the multiplication table of a given number up to 10.
 function printMulTable(number: number) {
     for (let i = 1; i <= 10; i++) {
-        const result = number * i;
-        console.log(`${number} x ${i} = ${result}`);
+    
+        console.log(`${number} x ${i} = ${number} * ${i}`);
     }
 }
 printMulTable(7);
